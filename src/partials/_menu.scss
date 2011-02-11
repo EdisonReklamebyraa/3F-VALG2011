@@ -31,8 +31,9 @@
 			@include sprite-row(1,image-height("menuBtnLeft.png")/2);
 			height: image-height("menuBtnLeft.png")/2;
 			width: image-width("menuBtnLeft.png");
-			&:hover {
-				@include sprite-row(2,image-height("menuBtnLeft.png")/2);
+			&:hover,&.active {
+				@include sprite-row(2,image-height("menuBtnRight.png")/2);
+				a {color: #fff;}
 			}
 
 		}
