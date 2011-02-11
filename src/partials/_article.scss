@@ -1,0 +1,108 @@
+.article {
+	overflow: hidden;
+	
+	.articlepicture {
+		.caption { 
+			background: $default-background;
+			padding: 5px;
+		}
+
+	}
+	.dynamik {
+		div {
+			margin-bottom: 20px;
+		}
+	}
+	.summary {
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	.paragraph {
+		margin-bottom: 20px;     
+		overflow: hidden;
+		.hardreturn {
+			margin-bottom: 0px;
+		}
+		.picture {
+			width: 200px;
+			&.fl {
+				float: left;
+				margin-right: 10px;
+				margin-bottom: 10px;
+			}	
+			&.fr {
+				float: right;
+				margin-left: 10px;
+				margin-bottom: 10px;
+			}
+			.caption {
+				background: $default-background;
+				padding: 5px;						
+			}
+		}
+		.facts {
+			width: 200px;
+			ul
+			{    
+				margin: 0;
+				padding: 10px;
+					li
+					{
+						padding: 0 0 10px 0 ;
+						margin:  0 10px;
+					}
+			}
+			&.fl {
+				float: left;
+				margin-right: 10px;
+				margin-bottom: 10px;
+			}	
+			&.fr {
+				float: right;
+				margin-left: 10px;
+				margin-bottom: 10px;
+			}
+		}
+		
+	}
+	.byline {
+		margin-bottom: 5px;
+		padding-bottom: 5px;
+		border-bottom: 1px solid $default-bordercolor;
+		a {
+			color: #7a0414;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	.facts {
+		background: $default-background;
+		padding: 5px;				
+		margin-bottom: 20px;
+		ul
+		{
+
+			padding: 0;
+			margin: 0;
+			
+		}
+	}
+	.box {
+		dd {
+			margin: 0 0 6px 0;
+			padding-bottom: 6px;
+			border-bottom: 1px solid $default-bordercolor;
+			h3 {
+				font-size: 1em;
+				margin-bottom: 4px;
+			}
+			@include link-icons;
+			a {
+				display: block;
+			}
+		}
+
+	}
+}

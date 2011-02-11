@@ -1,0 +1,65 @@
+.mainmenu {
+		@include column(16,true);
+		@include horizontal-list(0px,left);
+		li {
+			background-image: image-url("menuBtn.png"); 
+			@include sprite-row(1,image-height("menuBtn.png")/2);
+			height: image-height("menuBtn.png")/2;
+			width: image-width("menuBtn.png");
+			a {
+				font-size: 11px;
+				vertical-align: center;
+				height: 100%;
+				width: 100%;
+				display: block;
+				text-align: center;
+				padding-top: 11px;
+				color: #7a0414;
+				text-decoration: none;
+				text-transform: uppercase;
+				&:hover {
+					color: #fff;
+				}
+			}
+			&:hover,&.active {
+				@include sprite-row(2,image-height("menuBtn.png")/2);
+				a {color: #fff;}
+			}
+		}
+		li:first-child {
+			background-image: image-url("menuBtnLeft.png"); 
+			@include sprite-row(1,image-height("menuBtnLeft.png")/2);
+			height: image-height("menuBtnLeft.png")/2;
+			width: image-width("menuBtnLeft.png");
+			&:hover {
+				@include sprite-row(2,image-height("menuBtnLeft.png")/2);
+			}
+
+		}
+		li:last-child {
+			background-image: image-url("menuBtnRight.png"); 
+			@include sprite-row(1,image-height("menuBtnRight.png")/2);
+			height: image-height("menuBtnRight.png")/2;
+			width: image-width("menuBtnRight.png");
+			&:hover,&.active {
+				@include sprite-row(2,image-height("menuBtnRight.png")/2);
+				a {color: #fff;}
+			}
+
+		}	
+	}
+	.submenu {
+		@include column(16,true);
+		@include horizontal-list(10px,left);
+
+		margin-left: 10px;
+		margin-bottom: 4px;
+		a {
+			@include link-colors(#000, #7a0414, #7a0414, #000, #7a0414);
+			text-decoration: none;
+		}
+		.active a{
+			@include link-colors(#7a0414, #7a0414, #7a0414, #7a0414, #7a0414);
+		}
+
+	}

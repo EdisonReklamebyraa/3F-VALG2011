@@ -1,0 +1,18 @@
+@import "blueprint"; 
+@import "partials/base";  
+
+// Generate the blueprint print styles:
+@include blueprint-print; 
+
+.mainmenu,
+.submenu,
+#footer,
+.pagination,
+.header,
+.main,
+.links, 
+.article-tools
+{
+	 display: none !important;
+	
+}

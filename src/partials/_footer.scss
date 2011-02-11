@@ -1,0 +1,28 @@
+#footer {
+  background: #fff; 
+  ul {
+  	@include no-bullet;
+  	margin: 0px;
+  	padding: 0px;
+  	}
+	.column-1-2-3-4 {
+		background: $default-background;
+		.content {
+			padding-top: 10px;
+			margin-bottom: 10px;		
+		}
+	}
+	h3 {
+		margin-bottom: 0.5em;
+	}
+	a {
+		color: #000;
+		text-decoration: none;
+		&:hover {
+			color: #7a0414; 
+		}
+	}
+	.active a{
+		@include link-colors(#7a0414, #7a0414, #7a0414, #7a0414, #7a0414);
+	}
+}

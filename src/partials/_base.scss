@@ -1,0 +1,50 @@
+
+// Here is where you can define your constants for your application and to configure the blueprint framework.
+// Feel free to delete these if you want keep the defaults:
+
+$blueprint-grid-columns: 16;
+$blueprint-grid-width: 40px;
+$blueprint-grid-margin: 20px;
+
+$topmenu-linkcolor: #fff;
+$topmenu-linksize: 10px;
+
+$default-background: #dedede;
+$default-bordercolor: #c4c4c4;
+$top-right-menuseparator: "toprightmenu_separator.png"; 
+
+// This import applies a global reset to any page that imports this stylesheet.
+@import "blueprint/reset";
+
+// To configure blueprint, edit the partials/_base.sass file.
+
+
+// Import all the default blueprint modules so that we can access their mixins.
+@import "blueprint";
+
+// Import the non-default scaffolding module.
+@import "blueprint/debug";
+@import "compass/css3/background-size";
+@import "compass/utilities/lists/horizontal-list";
+@import "compass/utilities/sprites/sprite-img";
+@import "compass/layout/sticky-footer";
+@import "compass/utilities/lists/bullets";
+@import "partials/link-icons";
+
+@import "partials/typography";
+@import "partials/article";
+@import "partials/article-tools";
+@import "partials/menu";
+@import "partials/footer";
+
+@include blueprint;
+@include typography;
+@include sticky-footer(120px, "#main", "#main_footer", "#footer");
+
+@import "partials/content";    
+
+
+// If you change your grid column dimensions
+// you can make a new grid background image from the command line like this:
+// compass grid-img 30+10x16
+

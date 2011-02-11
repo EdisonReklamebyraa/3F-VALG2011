@@ -1,0 +1,28 @@
+.article-tools {
+	border-bottom: 1px solid $default-bordercolor;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+	ul {
+		@include horizontal-list(10px);
+	}
+	li{
+		background: image-url($top-right-menuseparator) no-repeat; 
+		height: 20px; 
+		background-position: left;
+	
+		&.last{
+			padding-right: 10px;
+		}
+		&.first{
+			background: none;
+			padding-right: 10px;
+		}
+		a {
+			color: #7a0414;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}		
+	}	
+}

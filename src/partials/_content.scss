@@ -1,0 +1,250 @@
+// Generate the blueprint framework according to your configuration:
+#main
+{
+
+	background-color: #f3f3f3;
+	width: 940px;
+	margin-right:  auto; 
+	margin-left:  auto; 
+
+}
+
+.container {
+	
+	
+	/* @include showgrid("grid.png"); */
+	.header {
+		/* background-image:image-url("header_bgimg.jpg");
+		height: image-height("header_bgimg.jpg"); */
+		@include sprite-background("header_bgimg.jpg",image-width("header_bgimg.jpg"),image-height("header_bgimg.jpg"));
+
+		img {
+			float: left;
+			padding-left: 10px;
+			padding-top: 6px;
+
+		}
+		.topmenu {
+			margin-top: 3px;
+			@include column(8);
+			float: right;	
+			ul {
+				@include horizontal-list(5px,right);
+			}
+			a {
+				color: $topmenu-linkcolor;
+				font-size: $topmenu-linksize;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+			a:hover 
+			{
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.main {
+		@include column(16,true);
+	}
+	
+	hr {
+		@include colruler(#b1b1b1);
+		margin-bottom: 4px;
+	}
+	.column-1-2-3-4 {
+		@include column(16,true);
+		background-image: image-url("content_vertical_separator.png");
+		background-repeat: no-repeat;
+		display: block;
+		overflow: hidden;
+		&.nobackground {
+			background-image: none;
+		}
+
+		
+	}
+	.column-1-2-3 {
+		@include column(12);
+	}
+	.column-1-2 {
+		@include column(8);
+		.pagination {
+		    @include column(8,true);
+		    left: 0;
+		    position: relative;
+		    height: 25px;
+		    top: 0;	
+	 		border-bottom: 1px solid $default-bordercolor;
+	 		overflow: hidden;
+	 		margin-bottom: 20px;
+			&.bottom
+			{
+				 border-top: 1px solid $default-bordercolor;
+				 padding-top: 7px;    
+				.paginationinner .paginationRight, .paginationinner .paginationLeft {
+					top: 7px;
+				}
+				
+			}
+			a {
+			text-decoration: none;
+			color: #000;
+				&:hover {
+					color: #7a0414;
+				}
+
+			}
+
+			.paginationinner {
+				padding: 0 10px 0 10px;
+				.paginationLeft {
+					position: absolute;
+				    top: 0;				
+				}
+				.paginationCenter {
+					text-align: center;
+					line-height: 20px;
+
+				}
+				.paginationRight {
+					position: absolute;
+					right: 10px;
+					top: 0px;
+				}
+			}
+		}
+	}
+	.column-3-4 {
+		@include column(8,true);
+	}
+	.column-1,.column {
+		@include column(4);
+		&.last,&:last-child {
+			margin-right: 0px;
+		}
+	}
+	.column-2 {
+		@include column(4);
+	}
+	.column-3 {
+		@include column(4);
+	}
+	.column-4 {
+		@include column(4,true);
+	}
+
+	.content {
+		padding: 10px 10px 10px 10px;
+		 
+		.columns {
+			.column-1 {
+				width: 210px;
+			} 
+			
+		} 
+		a {
+		text-decoration: none;
+		color: #7a0414;
+			&:hover {
+				color: #7a0414;  
+				text-decoration: underline; 
+			}
+
+		}
+		.row {
+			overflow: hidden; 
+			padding: 0 0 10px 0;
+		}
+
+		h1 {
+			color: #7a0414;
+			font-weight: bold;
+			line-height: 1.1;   
+		}
+		h2 {
+			color: #7a0414;
+			font-weight: bold;  
+			line-height: 1.1;     
+			
+		}	
+		h3 {
+			color: #7a0414;
+			font-weight: bold;
+		}
+		img {
+			
+			&.fl {
+				float: left;
+				margin-right: 10px;
+				margin-bottom: 10px;
+			}	
+			&.fr {
+				float: right;
+				margin-left: 10px;
+				margin-bottom: 10px;
+			}
+		}
+
+		.links {
+			margin-bottom: 20px;
+			ul {
+				@include pretty-bullets("bullet-arrow.png", 8px, 8px, 30px, 20px);
+				padding: 0px;
+				margin: 0px;
+				li {
+					border-bottom: 1px solid #7a0414;
+					padding-bottom: 5px;
+					padding-top: 5px;
+				}
+			}
+			a {
+			text-decoration: none;
+			color: #000;
+				&:hover {
+					color: #7a0414;
+				}
+
+			}
+			h3 {
+				margin-bottom: 0px;
+			}
+		}
+		
+		.articlelist {
+			display: block;
+			overflow: hidden;
+			margin-bottom: 20px;
+			h2 {
+				margin: 0 0 8px;   
+				clear: both; 
+				min-height: 55px;
+			}                                 
+			a {
+				color: #7a0414;
+			}
+			p {
+				margin-bottom: 0px;
+			}
+		}
+	} 
+	
+	.column-1,
+	.column-3-4
+	{
+			ul
+			{    
+				margin: 0;
+				padding: 10px;
+					li
+					{
+						padding: 0 0 10px 0 ;
+						margin:  0 10px;
+					}
+				
+			}
+		
+	}
+
+}
+
