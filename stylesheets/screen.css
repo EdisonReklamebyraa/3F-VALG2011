@@ -2112,3 +2112,7 @@ html, body {
   padding: 0 0 10px 0;
   margin: 0 10px;
 }
+/* line 248, ../src/partials/_content.scss */
+.container .voxpop .column-1 {
+  width: 215px;
+}
