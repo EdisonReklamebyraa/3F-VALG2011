@@ -543,6 +543,10 @@ a img {
 #footer .active a:active {
   color: #7a0414;
 }
+/* line 28, ../src/partials/_footer.scss */
+#footer .column {
+  width: 172px;
+}
 
 /* line 39, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 body {

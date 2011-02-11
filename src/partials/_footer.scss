@@ -25,4 +25,7 @@
 	.active a{
 		@include link-colors(#7a0414, #7a0414, #7a0414, #7a0414, #7a0414);
 	}
+	.column {
+		width: 172px;
+	}
 }
