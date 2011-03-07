@@ -123,6 +123,11 @@
 		&.last,&:last-child {
 			margin-right: 0px;
 		}
+		.dynamik.article {
+			h1 {
+				font-size: 16px;
+			}
+		}
 	}
 	.column-2 {
 		@include column(4);
