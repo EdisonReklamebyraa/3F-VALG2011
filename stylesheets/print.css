@@ -1962,7 +1962,7 @@ html, body {
 }
 /* line 127, ../src/partials/_content.scss */
 .container .column-1 .dynamik.article h1, .container .column .dynamik.article h1 {
-  font-size: 16px;
+  font-size: 1.5em;
 }
 /* line 132, ../src/partials/_content.scss */
 .container .column-2 {
