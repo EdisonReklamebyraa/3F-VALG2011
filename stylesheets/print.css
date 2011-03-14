@@ -83,23 +83,24 @@ a img {
 
 /* line 2, ../src/partials/_kandidatliste.scss */
 .list-item h3 {
-  margin-bottom: 3px;
+  margin-bottom: 0px;
+  margin-top: 0px;
   color: #333333!important;
 }
-/* line 6, ../src/partials/_kandidatliste.scss */
+/* line 7, ../src/partials/_kandidatliste.scss */
 .list-item div.column-1 {
   width: 218px;
   margin-right: 3px;
 }
-/* line 10, ../src/partials/_kandidatliste.scss */
+/* line 11, ../src/partials/_kandidatliste.scss */
 .list-item div {
   padding: 3px;
 }
-/* line 12, ../src/partials/_kandidatliste.scss */
+/* line 13, ../src/partials/_kandidatliste.scss */
 .list-item div.blue {
   background-color: #E0E7EF;
 }
-/* line 15, ../src/partials/_kandidatliste.scss */
+/* line 16, ../src/partials/_kandidatliste.scss */
 .list-item div.type {
   background-color: #D1D7DF;
 }
