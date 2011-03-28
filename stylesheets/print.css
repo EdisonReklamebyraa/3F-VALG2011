@@ -2025,59 +2025,98 @@ html, body {
 .container .content {
   padding: 10px 10px 10px 10px;
 }
-/* line 146, ../src/partials/_content.scss */
+/* line 145, ../src/partials/_content.scss */
+.container .content .newsbox {
+  background: #fff;
+  border: 1px solid #fff;
+}
+/* line 148, ../src/partials/_content.scss */
+.container .content .newsbox h2 {
+  background-image: url('../images/newsbox_header_bgimg.png?1301317998');
+  height: 22px;
+  line-height: 22px;
+  padding: 5px;
+  font-size: 15px;
+  color: #464646;
+  margin-bottom: 5px;
+}
+/* line 157, ../src/partials/_content.scss */
+.container .content .newsbox ul {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 162, ../src/partials/_content.scss */
+.container .content .newsbox ul li {
+  list-style: none;
+  border-bottom: 1px dotted #9f9f9f;
+  line-height: 26px;
+}
+/* line 11, ../../../../jruby-1.6.0.RC1/lib/ruby/gems/1.8/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_bullets.scss */
+.container .content .newsbox ul li li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+/* line 166, ../src/partials/_content.scss */
+.container .content .newsbox ul li span {
+  color: #5a5a5a;
+  padding-right: 5px;
+}
+/* line 175, ../src/partials/_content.scss */
 .container .content .columns .column-1 {
   width: 210px;
 }
-/* line 151, ../src/partials/_content.scss */
+/* line 180, ../src/partials/_content.scss */
 .container .content a {
   text-decoration: none;
   color: #7a0414;
 }
-/* line 154, ../src/partials/_content.scss */
+/* line 183, ../src/partials/_content.scss */
 .container .content a:hover {
   color: #7a0414;
   text-decoration: underline;
 }
-/* line 160, ../src/partials/_content.scss */
+/* line 189, ../src/partials/_content.scss */
 .container .content .row {
   overflow: hidden;
   padding: 0 0 10px 0;
 }
-/* line 165, ../src/partials/_content.scss */
+/* line 194, ../src/partials/_content.scss */
 .container .content h1 {
   color: #7a0414;
   font-weight: bold;
   line-height: 1.1;
 }
-/* line 170, ../src/partials/_content.scss */
+/* line 199, ../src/partials/_content.scss */
 .container .content h2 {
   color: #7a0414;
   font-weight: bold;
   line-height: 1.1;
 }
-/* line 176, ../src/partials/_content.scss */
+/* line 205, ../src/partials/_content.scss */
 .container .content h3 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 182, ../src/partials/_content.scss */
+/* line 211, ../src/partials/_content.scss */
 .container .content img.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 187, ../src/partials/_content.scss */
+/* line 216, ../src/partials/_content.scss */
 .container .content img.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 194, ../src/partials/_content.scss */
+/* line 224, ../src/partials/_content.scss */
 .container .content .links {
   margin-bottom: 20px;
 }
-/* line 196, ../src/partials/_content.scss */
+/* line 226, ../src/partials/_content.scss */
 .container .content .links ul {
   margin-left: 0;
   padding: 0px;
@@ -2089,58 +2128,58 @@ html, body {
   background: url('../images/bullet-arrow.png?1295444603') no-repeat 6px 11px;
   list-style-type: none;
 }
-/* line 200, ../src/partials/_content.scss */
+/* line 230, ../src/partials/_content.scss */
 .container .content .links ul li {
   border-bottom: 1px solid #7a0414;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-/* line 206, ../src/partials/_content.scss */
+/* line 236, ../src/partials/_content.scss */
 .container .content .links a {
   text-decoration: none;
   color: #000;
 }
-/* line 209, ../src/partials/_content.scss */
+/* line 239, ../src/partials/_content.scss */
 .container .content .links a:hover {
   color: #7a0414;
 }
-/* line 214, ../src/partials/_content.scss */
+/* line 244, ../src/partials/_content.scss */
 .container .content .links h3 {
   margin-bottom: 0px;
 }
-/* line 219, ../src/partials/_content.scss */
+/* line 249, ../src/partials/_content.scss */
 .container .content .articlelist {
   display: block;
   overflow: hidden;
   margin-bottom: 20px;
 }
-/* line 223, ../src/partials/_content.scss */
+/* line 253, ../src/partials/_content.scss */
 .container .content .articlelist h2 {
   margin: 0 0 8px;
   clear: both;
   min-height: 55px;
 }
-/* line 228, ../src/partials/_content.scss */
+/* line 258, ../src/partials/_content.scss */
 .container .content .articlelist a {
   color: #7a0414;
 }
-/* line 231, ../src/partials/_content.scss */
+/* line 261, ../src/partials/_content.scss */
 .container .content .articlelist p {
   margin-bottom: 0px;
 }
-/* line 241, ../src/partials/_content.scss */
+/* line 271, ../src/partials/_content.scss */
 .container .column-1 ul,
 .container .column-3-4 ul {
   margin: 0;
   padding: 10px;
 }
-/* line 245, ../src/partials/_content.scss */
+/* line 275, ../src/partials/_content.scss */
 .container .column-1 ul li,
 .container .column-3-4 ul li {
   padding: 0 0 10px 0;
   margin: 0 10px;
 }
-/* line 253, ../src/partials/_content.scss */
+/* line 283, ../src/partials/_content.scss */
 .container .voxpop .column-1 {
   width: 215px;
 }

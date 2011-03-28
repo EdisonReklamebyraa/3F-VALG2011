@@ -141,7 +141,36 @@
 
 	.content {
 		padding: 10px 10px 10px 10px;
-		 
+		
+		.newsbox {
+			background: #fff;
+			border: 1px solid #fff;
+			h2 {
+				background-image: image-url("newsbox_header_bgimg.png"); 
+				height: 22px;
+				line-height: 22px;
+				padding: 5px;
+				font-size: 15px;
+				color: #464646;
+				margin-bottom: 5px;
+			}
+			ul {
+				margin-left:0px;
+				margin-right:0px;
+				padding-left: 5px;
+				padding-right: 5px;
+				li {
+					@include no-bullets;
+					border-bottom: 1px dotted #9f9f9f;
+					line-height: 26px;
+					span {
+						color: #5a5a5a;
+						padding-right: 5px;
+					}
+				}
+
+			}
+		}		 
 		.columns {
 			.column-1 {
 				width: 210px;
@@ -189,6 +218,7 @@
 				margin-left: 10px;
 				margin-bottom: 10px;
 			}
+
 		}
 
 		.links {
