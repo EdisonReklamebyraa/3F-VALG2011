@@ -159,6 +159,8 @@
 				margin-right:0px;
 				padding-left: 5px;
 				padding-right: 5px;
+				height: 200px;
+				overflow: auto;
 				li {
 					@include no-bullets;
 					border-bottom: 1px dotted #9f9f9f;
