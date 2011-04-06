@@ -120,6 +120,11 @@
 	}
 	.column-1,.column {
 		@include column(4);
+			&.voxpop {
+			width: 200px;
+			padding-right: 20px;	
+		}
+
 		&.last,&:last-child {
 			margin-right: 0px;
 		}
@@ -127,10 +132,6 @@
 			h1 {
 				font-size: 1.5em;
 			}
-		}
-		&.voxpop {
-			width: 200px;
-			padding-right: 20px;	
 		}
 	}
 	.column-2 {
