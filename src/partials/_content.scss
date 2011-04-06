@@ -122,7 +122,8 @@
 		@include column(4);
 			&.voxpop {
 			width: 200px;
-			padding-right: 20px;	
+			padding-right: 20px;
+			margin-right: 0px;	
 		}
 
 		&.last,&:last-child {

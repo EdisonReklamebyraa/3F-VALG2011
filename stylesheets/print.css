@@ -1984,16 +1984,17 @@ html, body {
 .container .column-1.voxpop, .container .column.voxpop {
   width: 200px;
   padding-right: 20px;
+  margin-right: 0px;
 }
-/* line 128, ../src/partials/_content.scss */
+/* line 129, ../src/partials/_content.scss */
 .container .column-1.last, .container .column-1:last-child, .container .column.last, .container .column:last-child {
   margin-right: 0px;
 }
-/* line 132, ../src/partials/_content.scss */
+/* line 133, ../src/partials/_content.scss */
 .container .column-1 .dynamik.article h1, .container .column .dynamik.article h1 {
   font-size: 1.5em;
 }
-/* line 137, ../src/partials/_content.scss */
+/* line 138, ../src/partials/_content.scss */
 .container .column-2 {
   display: inline;
   float: left;
@@ -2004,7 +2005,7 @@ html, body {
 * html .container .column-2 {
   overflow-x: hidden;
 }
-/* line 140, ../src/partials/_content.scss */
+/* line 141, ../src/partials/_content.scss */
 .container .column-3 {
   display: inline;
   float: left;
@@ -2015,7 +2016,7 @@ html, body {
 * html .container .column-3 {
   overflow-x: hidden;
 }
-/* line 143, ../src/partials/_content.scss */
+/* line 144, ../src/partials/_content.scss */
 .container .column-4 {
   display: inline;
   float: left;
@@ -2026,16 +2027,16 @@ html, body {
 * html .container .column-4 {
   overflow-x: hidden;
 }
-/* line 147, ../src/partials/_content.scss */
+/* line 148, ../src/partials/_content.scss */
 .container .content {
   padding: 10px 10px 10px 10px;
 }
-/* line 150, ../src/partials/_content.scss */
+/* line 151, ../src/partials/_content.scss */
 .container .content .newsbox {
   background: #fff;
   border: 1px solid #fff;
 }
-/* line 153, ../src/partials/_content.scss */
+/* line 154, ../src/partials/_content.scss */
 .container .content .newsbox h2 {
   background-image: url('../images/newsbox_header_bgimg.png?1301317998');
   height: 22px;
@@ -2045,7 +2046,7 @@ html, body {
   color: #464646;
   margin-bottom: 5px;
 }
-/* line 162, ../src/partials/_content.scss */
+/* line 163, ../src/partials/_content.scss */
 .container .content .newsbox ul {
   margin-left: 0px;
   margin-right: 0px;
@@ -2057,7 +2058,7 @@ html, body {
   display: block;
   position: relative;
 }
-/* line 172, ../src/partials/_content.scss */
+/* line 173, ../src/partials/_content.scss */
 .container .content .newsbox ul li {
   list-style: none;
   border-bottom: 1px dotted #9f9f9f;
@@ -2069,64 +2070,64 @@ html, body {
   list-style-type: none;
   margin-left: 0px;
 }
-/* line 176, ../src/partials/_content.scss */
+/* line 177, ../src/partials/_content.scss */
 .container .content .newsbox ul li span {
   color: #5a5a5a;
   padding-right: 5px;
 }
-/* line 185, ../src/partials/_content.scss */
+/* line 186, ../src/partials/_content.scss */
 .container .content .columns .column-1 {
   width: 210px;
 }
-/* line 190, ../src/partials/_content.scss */
+/* line 191, ../src/partials/_content.scss */
 .container .content a {
   text-decoration: none;
   color: #7a0414;
 }
-/* line 193, ../src/partials/_content.scss */
+/* line 194, ../src/partials/_content.scss */
 .container .content a:hover {
   color: #7a0414;
   text-decoration: underline;
 }
-/* line 199, ../src/partials/_content.scss */
+/* line 200, ../src/partials/_content.scss */
 .container .content .row {
   overflow: hidden;
   padding: 0 0 10px 0;
 }
-/* line 204, ../src/partials/_content.scss */
+/* line 205, ../src/partials/_content.scss */
 .container .content h1 {
   color: #7a0414;
   font-weight: bold;
   line-height: 1.1;
 }
-/* line 209, ../src/partials/_content.scss */
+/* line 210, ../src/partials/_content.scss */
 .container .content h2 {
   color: #7a0414;
   font-weight: bold;
   line-height: 1.1;
 }
-/* line 215, ../src/partials/_content.scss */
+/* line 216, ../src/partials/_content.scss */
 .container .content h3 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 221, ../src/partials/_content.scss */
+/* line 222, ../src/partials/_content.scss */
 .container .content img.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 226, ../src/partials/_content.scss */
+/* line 227, ../src/partials/_content.scss */
 .container .content img.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 234, ../src/partials/_content.scss */
+/* line 235, ../src/partials/_content.scss */
 .container .content .links {
   margin-bottom: 20px;
 }
-/* line 236, ../src/partials/_content.scss */
+/* line 237, ../src/partials/_content.scss */
 .container .content .links ul {
   margin-left: 0;
   padding: 0px;
@@ -2138,58 +2139,58 @@ html, body {
   background: url('../images/bullet-arrow.png?1295444603') no-repeat 6px 11px;
   list-style-type: none;
 }
-/* line 240, ../src/partials/_content.scss */
+/* line 241, ../src/partials/_content.scss */
 .container .content .links ul li {
   border-bottom: 1px solid #7a0414;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-/* line 246, ../src/partials/_content.scss */
+/* line 247, ../src/partials/_content.scss */
 .container .content .links a {
   text-decoration: none;
   color: #000;
 }
-/* line 249, ../src/partials/_content.scss */
+/* line 250, ../src/partials/_content.scss */
 .container .content .links a:hover {
   color: #7a0414;
 }
-/* line 254, ../src/partials/_content.scss */
+/* line 255, ../src/partials/_content.scss */
 .container .content .links h3 {
   margin-bottom: 0px;
 }
-/* line 259, ../src/partials/_content.scss */
+/* line 260, ../src/partials/_content.scss */
 .container .content .articlelist {
   display: block;
   overflow: hidden;
   margin-bottom: 20px;
 }
-/* line 263, ../src/partials/_content.scss */
+/* line 264, ../src/partials/_content.scss */
 .container .content .articlelist h2 {
   margin: 0 0 8px;
   clear: both;
   min-height: 55px;
 }
-/* line 268, ../src/partials/_content.scss */
+/* line 269, ../src/partials/_content.scss */
 .container .content .articlelist a {
   color: #7a0414;
 }
-/* line 271, ../src/partials/_content.scss */
+/* line 272, ../src/partials/_content.scss */
 .container .content .articlelist p {
   margin-bottom: 0px;
 }
-/* line 281, ../src/partials/_content.scss */
+/* line 282, ../src/partials/_content.scss */
 .container .column-1 ul,
 .container .column-3-4 ul {
   margin: 0;
   padding: 10px;
 }
-/* line 285, ../src/partials/_content.scss */
+/* line 286, ../src/partials/_content.scss */
 .container .column-1 ul li,
 .container .column-3-4 ul li {
   padding: 0 0 10px 0;
   margin: 0 10px;
 }
-/* line 293, ../src/partials/_content.scss */
+/* line 294, ../src/partials/_content.scss */
 .container .voxpop .column-1 {
   width: 215px;
 }
