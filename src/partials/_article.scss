@@ -1,6 +1,10 @@
 .article {
 	overflow: hidden;
-	
+	&.candidatelist {
+		h1 {
+			float:left;
+		}
+	}	
 	.articlepicture {
 		.caption { 
 			background: $default-background;
