@@ -146,6 +146,11 @@
 	}
 
 	.content {
+		&.candidatelist {
+			h1 {
+				float:left;
+			}
+		}
 		padding: 10px 10px 10px 10px;
 		
 		.newsbox {
@@ -206,6 +211,7 @@
 			color: #7a0414;
 			font-weight: bold;
 			line-height: 1.1;   
+		
 		}
 		h2 {
 			color: #7a0414;
@@ -273,6 +279,7 @@
 				margin-bottom: 0px;
 			}
 		}
+
 	} 
 	
 	.column-1,

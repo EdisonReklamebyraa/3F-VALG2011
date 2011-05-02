@@ -2031,12 +2031,16 @@ html, body {
 .container .content {
   padding: 10px 10px 10px 10px;
 }
-/* line 151, ../src/partials/_content.scss */
+/* line 150, ../src/partials/_content.scss */
+.container .content.candidatelist h1 {
+  float: left;
+}
+/* line 156, ../src/partials/_content.scss */
 .container .content .newsbox {
   background: #fff;
   border: 1px solid #fff;
 }
-/* line 154, ../src/partials/_content.scss */
+/* line 159, ../src/partials/_content.scss */
 .container .content .newsbox h2 {
   background-image: url('../images/newsbox_header_bgimg.png?1303117264');
   height: 22px;
@@ -2046,7 +2050,7 @@ html, body {
   color: #464646;
   margin-bottom: 5px;
 }
-/* line 163, ../src/partials/_content.scss */
+/* line 168, ../src/partials/_content.scss */
 .container .content .newsbox ul {
   margin-left: 0px;
   margin-right: 0px;
@@ -2058,7 +2062,7 @@ html, body {
   display: block;
   position: relative;
 }
-/* line 173, ../src/partials/_content.scss */
+/* line 178, ../src/partials/_content.scss */
 .container .content .newsbox ul li {
   list-style: none;
   border-bottom: 1px dotted #9f9f9f;
@@ -2070,64 +2074,64 @@ html, body {
   list-style-type: none;
   margin-left: 0px;
 }
-/* line 177, ../src/partials/_content.scss */
+/* line 182, ../src/partials/_content.scss */
 .container .content .newsbox ul li span {
   color: #5a5a5a;
   padding-right: 5px;
 }
-/* line 186, ../src/partials/_content.scss */
+/* line 191, ../src/partials/_content.scss */
 .container .content .columns .column-1 {
   width: 210px;
 }
-/* line 191, ../src/partials/_content.scss */
+/* line 196, ../src/partials/_content.scss */
 .container .content a {
   text-decoration: none;
   color: #7a0414;
 }
-/* line 194, ../src/partials/_content.scss */
+/* line 199, ../src/partials/_content.scss */
 .container .content a:hover {
   color: #7a0414;
   text-decoration: underline;
 }
-/* line 200, ../src/partials/_content.scss */
+/* line 205, ../src/partials/_content.scss */
 .container .content .row {
   overflow: hidden;
   padding: 0 0 10px 0;
 }
-/* line 205, ../src/partials/_content.scss */
+/* line 210, ../src/partials/_content.scss */
 .container .content h1 {
   color: #7a0414;
   font-weight: bold;
   line-height: 1.1;
 }
-/* line 210, ../src/partials/_content.scss */
+/* line 216, ../src/partials/_content.scss */
 .container .content h2 {
   color: #7a0414;
   font-weight: bold;
   line-height: 1.1;
 }
-/* line 216, ../src/partials/_content.scss */
+/* line 222, ../src/partials/_content.scss */
 .container .content h3 {
   color: #7a0414;
   font-weight: bold;
 }
-/* line 222, ../src/partials/_content.scss */
+/* line 228, ../src/partials/_content.scss */
 .container .content img.fl {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 227, ../src/partials/_content.scss */
+/* line 233, ../src/partials/_content.scss */
 .container .content img.fr {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-/* line 235, ../src/partials/_content.scss */
+/* line 241, ../src/partials/_content.scss */
 .container .content .links {
   margin-bottom: 20px;
 }
-/* line 237, ../src/partials/_content.scss */
+/* line 243, ../src/partials/_content.scss */
 .container .content .links ul {
   margin-left: 0;
   padding: 0px;
@@ -2139,58 +2143,58 @@ html, body {
   background: url('../images/bullet-arrow.png?1303117264') no-repeat 6px 11px;
   list-style-type: none;
 }
-/* line 241, ../src/partials/_content.scss */
+/* line 247, ../src/partials/_content.scss */
 .container .content .links ul li {
   border-bottom: 1px solid #7a0414;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-/* line 247, ../src/partials/_content.scss */
+/* line 253, ../src/partials/_content.scss */
 .container .content .links a {
   text-decoration: none;
   color: #000;
 }
-/* line 250, ../src/partials/_content.scss */
+/* line 256, ../src/partials/_content.scss */
 .container .content .links a:hover {
   color: #7a0414;
 }
-/* line 255, ../src/partials/_content.scss */
+/* line 261, ../src/partials/_content.scss */
 .container .content .links h3 {
   margin-bottom: 0px;
 }
-/* line 260, ../src/partials/_content.scss */
+/* line 266, ../src/partials/_content.scss */
 .container .content .articlelist {
   display: block;
   overflow: hidden;
   margin-bottom: 20px;
 }
-/* line 264, ../src/partials/_content.scss */
+/* line 270, ../src/partials/_content.scss */
 .container .content .articlelist h2 {
   margin: 0 0 8px;
   clear: both;
   min-height: 55px;
 }
-/* line 269, ../src/partials/_content.scss */
+/* line 275, ../src/partials/_content.scss */
 .container .content .articlelist a {
   color: #7a0414;
 }
-/* line 272, ../src/partials/_content.scss */
+/* line 278, ../src/partials/_content.scss */
 .container .content .articlelist p {
   margin-bottom: 0px;
 }
-/* line 282, ../src/partials/_content.scss */
+/* line 289, ../src/partials/_content.scss */
 .container .column-1 ul,
 .container .column-3-4 ul {
   margin: 0;
   padding: 10px;
 }
-/* line 286, ../src/partials/_content.scss */
+/* line 293, ../src/partials/_content.scss */
 .container .column-1 ul li,
 .container .column-3-4 ul li {
   padding: 0 0 10px 0;
   margin: 0 10px;
 }
-/* line 294, ../src/partials/_content.scss */
+/* line 301, ../src/partials/_content.scss */
 .container .voxpop .column-1 {
   width: 215px;
 }
