@@ -3,6 +3,13 @@
 	&.candidatelist {
 		h1 {
 			float:left;
+			
+		}
+		h3 {
+			clear: both;
+		}
+		form {
+			float: right;
 		}
 	}	
 	.articlepicture {
