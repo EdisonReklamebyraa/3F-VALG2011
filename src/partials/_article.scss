@@ -10,7 +10,12 @@
 		}
 		form {
 			float: right;
+			margin: 0;
+			button {
+				margin-left: 10px;
+			}
 		}
+		
 	}	
 	.articlepicture {
 		.caption { 
