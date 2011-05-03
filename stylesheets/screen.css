@@ -748,18 +748,22 @@ a img {
 #TB_ajaxContent img {
   padding: 5px;
 }
+/* line 116, ../src/partials/_thickbox.scss */
+#TB_ajaxContent .info {
+  margin-bottom: 5px;
+}
 
-/* line 118, ../src/partials/_thickbox.scss */
+/* line 121, ../src/partials/_thickbox.scss */
 #TB_ajaxContent.TB_modal {
   padding: 15px;
 }
 
-/* line 122, ../src/partials/_thickbox.scss */
+/* line 125, ../src/partials/_thickbox.scss */
 #TB_ajaxContent p {
   padding: 5px 0px 5px 0px;
 }
 
-/* line 126, ../src/partials/_thickbox.scss */
+/* line 129, ../src/partials/_thickbox.scss */
 #TB_load {
   position: fixed;
   display: none;
@@ -772,14 +776,14 @@ a img {
   /* -height/2 0 0 -width/2 */
 }
 
-/* line 137, ../src/partials/_thickbox.scss */
+/* line 140, ../src/partials/_thickbox.scss */
 * html #TB_load {
   /* ie6 hack */
   position: absolute;
   margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
 }
 
-/* line 142, ../src/partials/_thickbox.scss */
+/* line 145, ../src/partials/_thickbox.scss */
 #TB_HideSelect {
   z-index: 99;
   position: fixed;
@@ -794,14 +798,14 @@ a img {
   width: 100%;
 }
 
-/* line 156, ../src/partials/_thickbox.scss */
+/* line 159, ../src/partials/_thickbox.scss */
 * html #TB_HideSelect {
   /* ie6 hack */
   position: absolute;
   height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
 }
 
-/* line 161, ../src/partials/_thickbox.scss */
+/* line 164, ../src/partials/_thickbox.scss */
 #TB_iframeContent {
   clear: both;
   border: none;
