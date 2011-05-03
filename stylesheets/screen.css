@@ -749,7 +749,7 @@ a img {
   padding: 5px;
 }
 /* line 116, ../src/partials/_thickbox.scss */
-#TB_ajaxContent.info {
+#TB_ajaxContent .info {
   margin-bottom: 5px;
 }
 
