@@ -37,6 +37,7 @@ $top-right-menuseparator: "toprightmenu_separator.png";
 @import "partials/article-tools";
 @import "partials/menu";
 @import "partials/footer";
+@import "partials/thickbox";
 
 @include blueprint;
 @include typography;
