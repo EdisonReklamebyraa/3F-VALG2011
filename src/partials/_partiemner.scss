@@ -1,0 +1,37 @@
+.content {
+	&.partiemner {
+		div {
+			width: 121px;
+			
+		}
+		.question {
+			width: 920px;
+			overflow: hidden;
+			.odd {
+				background-color: #fff;
+			}
+			.even {
+			}
+			div {
+				text-align: center;
+				float: left;
+				padding: 5px;
+			}
+		}
+		.answer {
+			width: 920px;
+			overflow: hidden;
+			padding-top: 0;
+			.odd {
+				background-color: #fff;
+				padding: 5px;
+			}
+			.even {
+				padding: 5px;
+			}
+			div {
+				float: left;
+			}
+		}
+	}
+}

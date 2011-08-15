@@ -105,6 +105,45 @@ a img {
   background-color: #D1D7DF;
 }
 
+/* line 3, ../src/partials/_partiemner.scss */
+.content.partiemner div {
+  width: 121px;
+}
+/* line 7, ../src/partials/_partiemner.scss */
+.content.partiemner .question {
+  width: 920px;
+  overflow: hidden;
+}
+/* line 10, ../src/partials/_partiemner.scss */
+.content.partiemner .question .odd {
+  background-color: #fff;
+}
+/* line 15, ../src/partials/_partiemner.scss */
+.content.partiemner .question div {
+  text-align: center;
+  float: left;
+  padding: 5px;
+}
+/* line 21, ../src/partials/_partiemner.scss */
+.content.partiemner .answer {
+  width: 920px;
+  overflow: hidden;
+  padding-top: 0;
+}
+/* line 25, ../src/partials/_partiemner.scss */
+.content.partiemner .answer .odd {
+  background-color: #fff;
+  padding: 5px;
+}
+/* line 29, ../src/partials/_partiemner.scss */
+.content.partiemner .answer .even {
+  padding: 5px;
+}
+/* line 32, ../src/partials/_partiemner.scss */
+.content.partiemner .answer div {
+  float: left;
+}
+
 /* line 1, ../src/partials/_article.scss */
 .article {
   overflow: hidden;
